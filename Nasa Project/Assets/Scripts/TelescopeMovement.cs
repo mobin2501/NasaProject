@@ -6,6 +6,7 @@ public class TelescopeMovement : MonoBehaviour
 {
     public Rigidbody tlscope;
     bool three = false;
+    public float force = 1;
     private void Start()
     {
        three = false;
@@ -16,27 +17,27 @@ public class TelescopeMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            tlscope.AddForce(0f, 1f, 0f,ForceMode.Force);
+            tlscope.AddForce(0f, force, 0f,ForceMode.Force);
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            tlscope.AddForce(0f, -1f, 0f, ForceMode.Force);
+            tlscope.AddForce(0f, -force, 0f, ForceMode.Force);
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            tlscope.AddForce(-1f, 0f, 0f, ForceMode.Force);
+            tlscope.AddForce(-force, 0f, 0f, ForceMode.Force);
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            tlscope.AddForce(1f, 0f, 0f, ForceMode.Force);
+            tlscope.AddForce(force, 0f, 0f, ForceMode.Force);
         }
         else if (Input.GetKey(KeyCode.Z) && three == true)
         {
-            tlscope.AddForce(0f, 0f, 1f, ForceMode.Force);
+            tlscope.AddForce(0f, 0f, force, ForceMode.Force);
         }
         else if (Input.GetKey(KeyCode.X)&& three==true)
         {
-            tlscope.AddForce(0f, 0f, -1f, ForceMode.Force);
+            tlscope.AddForce(0f, 0f, -force, ForceMode.Force);
         }
         
 
