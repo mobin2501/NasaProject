@@ -935,22 +935,22 @@ PrefabInstance:
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7010574
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6532815
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.09229595
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.2705981
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
@@ -960,17 +960,17 @@ PrefabInstance:
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 150
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8776767411789723660, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8776767411789723664, guid: 21bef0cfe3bf4ab4db993bf00450c6db,
         type: 3}
@@ -8002,6 +8002,7 @@ GameObject:
   - component: {fileID: 1162586759}
   - component: {fileID: 1162586758}
   - component: {fileID: 1162586761}
+  - component: {fileID: 1162586762}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -8066,13 +8067,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162586757}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 650, y: 25, z: 650}
+  m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
+  m_LocalPosition: {x: 650, y: 0, z: 650}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!114 &1162586761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8087,6 +8088,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ts: {fileID: 557397822}
   campos: {fileID: 1162586760}
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &1162586762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162586757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d5e1f8d8704a44cada96ed50b6bea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1162586760}
 --- !u!1 &1169660844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6002275050383128277, guid: 90cf2712f2cf5bb43a9ee9aac0597de9,
@@ -12844,6 +12859,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468948099423289779, guid: 69ddcc930515ea64c8925e649b645cd2,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468948099423289779, guid: 69ddcc930515ea64c8925e649b645cd2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468948099423289779, guid: 69ddcc930515ea64c8925e649b645cd2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468948099423289779, guid: 69ddcc930515ea64c8925e649b645cd2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69ddcc930515ea64c8925e649b645cd2, type: 3}
