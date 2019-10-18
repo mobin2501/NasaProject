@@ -5376,10 +5376,10 @@ RectTransform:
   m_Father: {fileID: 1611822548}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -245, y: -30}
-  m_SizeDelta: {x: 62.024994, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 228, y: -30}
+  m_SizeDelta: {x: 62.025024, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724292261
 MonoBehaviour:
@@ -8087,6 +8087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ts: {fileID: 557397822}
   campos: {fileID: 1162586760}
+  offset: {x: 0, y: 30, z: 0}
 --- !u!1 &1169660844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6002275050383128277, guid: 90cf2712f2cf5bb43a9ee9aac0597de9,
@@ -11871,10 +11872,10 @@ RectTransform:
   m_Father: {fileID: 1611822548}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -176, y: -30}
-  m_SizeDelta: {x: 62.03, y: 30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 298, y: -30}
+  m_SizeDelta: {x: 62.03003, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649661789
 MonoBehaviour:
@@ -12577,6 +12578,7 @@ GameObject:
   - component: {fileID: 1840207177}
   - component: {fileID: 1840207176}
   - component: {fileID: 1840207175}
+  - component: {fileID: 1840207178}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -12683,6 +12685,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840207173}
   m_CullTransparentMesh: 0
+--- !u!114 &1840207178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840207173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0fd3435d9dd3dd45a9066b3456104e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bt: {fileID: 1840207175}
 --- !u!1001 &1853734327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14186,9 +14201,9 @@ RectTransform:
   m_Father: {fileID: 1611822548}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -133, y: -23}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -30}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111877820

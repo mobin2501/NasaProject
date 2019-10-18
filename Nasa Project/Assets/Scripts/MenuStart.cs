@@ -11,6 +11,6 @@ public class MenuStart: MonoBehaviour
     }
     void MenStart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 }

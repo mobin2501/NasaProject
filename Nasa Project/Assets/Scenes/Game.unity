@@ -663,8 +663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4988d284b0daa34e9964594e76e92de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ts: {fileID: 0}
+  ts: {fileID: 381872916}
   campos: {fileID: 1522600603}
+  offset: {x: 0, y: 30, z: 0}
 --- !u!1001 &1530664945
 PrefabInstance:
   m_ObjectHideFlags: 0
