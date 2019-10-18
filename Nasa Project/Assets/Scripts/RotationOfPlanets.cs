@@ -11,7 +11,7 @@ public class RotationOfPlanets : MonoBehaviour
     {
         if (StartRelativeVelocity.start == true)
         {
-            planet.transform.RotateAround(sun.transform.position, Vector3.up, 20f * Time.fixedDeltaTime);
+            planet.transform.RotateAround(sun.transform.position, Vector3.up, 1.88f * Time.fixedDeltaTime);
         }
             
     }

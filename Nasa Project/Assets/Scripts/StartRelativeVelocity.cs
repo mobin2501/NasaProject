@@ -5,7 +5,7 @@ public class StartRelativeVelocity : MonoBehaviour
 {
     public Button bt;
     public InputField inf;
-    public static bool start = true;
+    public static bool start = false;
     public static int speed ;
     private void Start()
     {
