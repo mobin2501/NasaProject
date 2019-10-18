@@ -5,7 +5,7 @@ public class TelescopeMovement : MonoBehaviour
 {
     public Transform sun;
     public Transform ts;
-    //public float force = 5;
+    
     public float speed;
     public Vector3 w = new Vector3(0f, 0f, .2f);
     public Vector3 a = new Vector3(.2f, 0f, 0f);
