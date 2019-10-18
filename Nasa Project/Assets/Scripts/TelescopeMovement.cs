@@ -21,23 +21,7 @@ public class TelescopeMovement : MonoBehaviour
             
                 ts.transform.RotateAround(sun.transform.position, Vector3.up, speed * Time.fixedDeltaTime);
 
-                /*if (Input.GetKey(KeyCode.W))
-                {
-                    ts.transform.position = ts.transform.position + a * Time.fixedDeltaTime;
-
-                }
-                else if (Input.GetKey(KeyCode.S))
-                {
-                    ts.transform.position = ts.transform.position - a * Time.fixedDeltaTime;
-                }
-                else if (Input.GetKey(KeyCode.A))
-                {
-                    ts.transform.position = ts.transform.position - w * Time.fixedDeltaTime;
-                }
-                else if (Input.GetKey(KeyCode.D))
-                {
-                    ts.transform.position = ts.transform.position + w * Time.fixedDeltaTime;
-                }*/
+                
             
             
             
