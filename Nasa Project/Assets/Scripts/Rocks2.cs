@@ -13,11 +13,13 @@ public class Rocks2 : MonoBehaviour
         if (rock.transform.position.x > 10)
         {
             rock.transform.position = new Vector3(-10, y, 0f);
+            Scoe.score = Scoe.score + 1;
 
         }
         if (rock.transform.position.x < -10)
         {
             rock.transform.position = new Vector3(10, y, 0f);
+            Scoe.score = Scoe.score + 1;
 
         }
 

@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class TeleGame : MonoBehaviour
@@ -34,6 +33,6 @@ public class TeleGame : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("GO");
+        SceneManager.LoadScene(5);
     }
 }
